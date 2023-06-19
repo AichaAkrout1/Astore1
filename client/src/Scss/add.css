@@ -1,0 +1,8 @@
+.addmob{
+    display: flex;
+    justify-content: center;
+}
+
+.btnaddmobile button:hover {
+    background-color: blue;
+}

@@ -1,0 +1,77 @@
+.contact-us{
+    width: 100%;
+    height: 800px;
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+}
+
+.contact-bg img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+    display: grid;
+    place-items: center;
+    /* border: 1px solid red; */
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    margin-top: 20px;
+   
+}
+.contact-bg h1{
+    margin-top: -100px;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
+.contact-bg p{
+    margin-top: -1px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container-contact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: 20px;
+
+}
+.cards-contact{
+    width: 300px;
+    height: 250px;
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    
+}
+.cards-contact .header{
+    /* border: 1px solid red; */
+    background-color: #204A86;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+}
+.cards-contact .header h1{
+    font-size: 30px;
+    font-weight: 300;
+}
+.cards-contact  p{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.cards-contact .img-contact{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.cards-contact img{
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 70px;
+    max-width: 70px;
+}

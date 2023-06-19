@@ -1,0 +1,37 @@
+/* *{
+  box-sizing: border-box;
+  margin: 0;
+  top: 0;
+} */
+
+
+.btnsDE{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-swiper {
+    margin: 40px 0;
+  }
+  
+  /* And also copy these styles from the swiper demo code sandox src->styles.css */
+  
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+ 

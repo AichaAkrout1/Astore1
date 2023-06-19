@@ -1,0 +1,117 @@
+.profil{
+    /* background: #DCE5FD; */
+   
+    
+}
+.dashboard{
+   margin-top: 6cm;
+}
+.sidebar-wrapper {
+    display: flex;
+    width: 300px;
+    align-items: stretch;
+    background-color: #F0F2F5;
+    font-weight: normal;
+    margin-top: -140px;
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    height: 710px;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    position: sticky;
+  }
+  #sidebar {
+    width: 300px;
+    background: #35353A;
+    color: black;
+    transition: all 0.3s;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  
+  #sidebar .sidebar-header {
+    padding: 20px;
+    background: #232f3e;
+  }
+  /* #sidebar ul.components {
+    padding: 5px 0px;
+    border-bottom: 1px solid #232f3e;
+  } */
+  
+  #sidebar ul li a {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    
+  }
+  #sidebar ul li a:hover {
+    color: #232f3e;
+    background: #fff;
+  }
+  
+  #sidebar ul li a i {
+    margin-right: 0.3rem;
+  }
+  
+  #sidebar ul li.active > a,
+  a[aria-expanded='true'] {
+    color: #fff;
+    background: #232f3e;
+  }
+  a[data-toggle='collapse'] {
+    position: relative;
+  }
+  
+  
+  ul ul a {
+    font-size: 1rem !important;
+    padding-left: 30px !important;
+    background: #232f3e;
+  }
+  
+  ul.CTAs {
+    padding: 20px;
+  }
+  
+  ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* Products List Admin */
+  /* #products_table .btn {
+    padding: 0.2rem 0.5rem;
+    margin-left: 0.4rem;
+  } */
+.dropProduct{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 130px ;
+  height: 110px;
+  background-color: #308AEC;
+  /* border-radius: 7px; */
+  margin-left: 7.4cm;
+  margin-top: -50px;
+}
+
+.dash{
+  width: 83%;
+  height: 710px;
+  position: absolute;
+  margin-left: 7.5cm;
+  margin-top: -18.8cm;
+  overflow: auto;
+  background-color: #F0F2F5;
+  
+}

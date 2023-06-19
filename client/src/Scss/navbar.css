@@ -1,0 +1,96 @@
+.nav{
+  position: relative;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 999999999999999999999 !important;
+  height: 80px;
+  /* overflow: hidden; */
+  /* padding-left: 35px !important; */
+  /* background: #fff !important; */
+  /* margin-top: 20px; */
+  background: rgb(255, 255, 255) !important;
+  
+  }
+  .navactive{
+    background: rgb(0, 0, 0) !important;
+    box-shadow: 0px 10px 5px -6px rgba(194,194,194,0.75);
+  }
+  .title{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 auto;
+    
+  
+  }
+  /* .butnsearche{
+    border:none;
+    background:#fff;
+     color: gray
+  } */
+
+
+  .cartAmount{
+      font-size: 8px;
+      background-color: #f9051c;
+      color: #fff;
+      width: 12.8%;
+      height: auto;
+      text-align: center;
+      position: relative;
+      top: -18px;
+      right: 6.8%;
+      border-radius: 50%;
+      border: none;
+}
+
+/* button[type="submit"] {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2716%27 height=%2716%27 class=%27bi bi-search%27 viewBox=%270 0 16 16%27%3E%3Cpath d=%27M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z%27%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+  cursor: pointer;
+  opacity: 0.7;
+  position: absolute;
+  top: 23px;
+  left: 1216px;
+} */
+
+
+/* button[type="submit"]:hover {
+  opacity: 1;
+} */
+
+/* button[type="submit"]:focus,
+input[type="search"]:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
+} */
+
+.drop{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  width: 170px ;
+  height: auto;
+  padding: 10px;
+  background-color: #adb0b4;
+  border-radius: 7px;
+  margin-left: 34cm;
+  margin-bottom: -3.4cm;
+  z-index: 9999999999999;
+
+}
+.drop img{
+  display: flex;
+  align-items: center;
+}
+/* .drop:hover{
+  background: #f9051c;
+} */

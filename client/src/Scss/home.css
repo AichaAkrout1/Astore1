@@ -1,0 +1,37 @@
+/* .box-cards{
+    width: 100%;
+    height: 100%;
+} */
+.contenair-cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+/* .cards-home{
+    margin: 0 0 30px;
+} */
+.image-card img{
+    width: 430px;
+    margin-top: 90px;
+    margin-right: 69px;
+}
+.content-card{
+    margin-top: -180px;
+    margin-left: 30px;
+    
+}
+.content-card h1 , h5{
+    color: #fff;
+}
+.cards-home{
+    
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.cards-home:hover{
+    transform: scale(1.1);
+}

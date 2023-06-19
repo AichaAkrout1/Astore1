@@ -1,0 +1,13 @@
+.register{
+    width:50%;
+    margin: 0 auto;
+}
+.register-box{
+    height: 620px;
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+}
+.content-register{
+    display: flex;
+    margin-top: 13px;
+    font-size: 13px;
+}
